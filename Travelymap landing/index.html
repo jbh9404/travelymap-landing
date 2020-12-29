@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Travelymap</title>
+    <meta name="viewport" content="target-densitydpi=device-dpi, width=device-width,initial-scale=1.0,minimum-scale=1,maximum-scale=1.0,user-scalable=no" />
+    <link rel="stylesheet" media="only screen and (min-width: 1100px)" href="css/desktop.css">
+    <link rel="stylesheet" media="only screen and (max-width: 1099px)" href="css/mobile.css">
+    <link rel="stylesheet" href="css/Reset.css">
+
+</head>
+<body>
+    <header id="header">
+		<div class="headerWrap">
+			<div class="logo">
+				<a href="index.html"><img src="img/travely_map.png" alt="트래블리맵" width="100px"></a>
+            </div>
+            <div class="blank">
+            </div>
+			<div id="click" class="contact">
+				<p style="display: inline;"><a href="https://app.travelymap.com/" style="text-decoration:none; color:black;">START</a></p>&nbsp;&nbsp;
+				<p style="display: inline;"><a href="#" style="text-decoration:none; color:black;">CONTACT</a></p>
+			</div>
+		</div>
+    </header>
+    <!-- FOR DESKTOP -->
+    <section id="home">
+        <div class="wrap">
+            <div class="PCparent">
+                <img src="./img/PCtopApp.png" width="380px">
+                <div class="pin">
+                    <img id="graphicA" src="img/map-pin.svg" alt="상단 APP 디자인">
+                    <script>
+                        let a = 250;
+                        const graphicA = document.getElementById('graphicA');
+                        console.log(graphicA);
+                        console.log("hello");
+                        // document.addEventListener('keydown', event => {graphic.style.top = ++y + 'px'});
+                        setInterval(function() {
+                            if(a < 400) {
+                                graphicA.style.top = a + "px";
+                                a++;
+                            }
+                        }, 3); // 3ms = 50 frames per second
+                    </script>
+                    <img id="graphicB" src="img/map-pin.svg" alt="상단 APP 디자인">
+                    <script>
+                        let b = 250;
+                        const graphicB = document.getElementById('graphicB');
+                        console.log(graphicB);
+                        console.log("hello");
+                        // document.addEventListener('keydown', event => {graphic.style.top = ++y + 'px'});
+                        setInterval(function() {
+                            if(b < 450) {
+                                graphicB.style.top = b + "px";
+                                b++;
+                            }
+                        }, 3); // 3ms = 50 frames per second
+                    </script>
+                    <img id="graphicC" src="img/map-pin.svg" alt="상단 APP 디자인">
+                    <script>
+                        let c = 250;
+                        const graphicC = document.getElementById('graphicC');
+                        console.log(graphicC);
+                        console.log("hello");
+                        // document.addEventListener('keydown', event => {graphic.style.top = ++y + 'px'});
+                        setInterval(function() {
+                            if(c < 420) {
+                                graphicC.style.top = c + "px";
+                                c++;
+                            }
+                        }, 3); // 3ms = 50 frames per second
+                    </script>
+                </div>
+            </div>
+            <!-- <img src="./img/PCtopApp.png" width="380px" style="position: relative; left: 15%; top: 50px;"> -->
+
+            <div class="homeWrap">
+                <div class="homeTit">
+                    <h1 style="font-size: 40px; margin: 10px;">ALL IN ONE</h1>
+                    <p>Travel Schedule Plannar App</p>
+                </div>
+            </div>
+            <div class="travelyMapStartBtn">
+                <p><a href="https://play.google.com/store/apps/details?id=com.travelymapapp&hl=ko" style="text-decoration:none; color:#ff5050;">Install App</a></p>
+            </div>
+        </div>
+    </section>
+    <!-- FOR MOBILE -->
+    <section id="homeM">
+        <div class="wrapM">
+            <div class="homeTitM">
+                <h1 style="font-size: 35px; margin: 10px;">ALL IN ONE</h1>
+                <p>Travel Schedule Plannar App</p>
+            </div>
+            <div class="Mparent">
+                <div class="topAppM">
+                    <img src="./img/topApp.png" width="260px"><br>
+                    <img id="graphic1" src="img/map-pin.svg" alt="상단 APP 디자인">
+                    <script>
+                        let x = -500;
+                        const graphic1 = document.getElementById('graphic1');
+                        console.log(graphic1);
+                        console.log("hello");
+                        // document.addEventListener('keydown', event => {graphic.style.top = ++y + 'px'});
+                        setInterval(function() {
+                            if(x < -340) {
+                                graphic1.style.top = x + "px";
+                                x++;
+                            }
+                        }, 3); // 3ms = 50 frames per second
+                    </script>
+                    <img id="graphic2" src="img/map-pin.svg" alt="상단 APP 디자인">
+                    <script>
+                        let y = -500;
+                        const graphic2 = document.getElementById('graphic2');
+                        console.log(graphic2);
+                        console.log("hello");
+                        // document.addEventListener('keydown', event => {graphic.style.top = ++y + 'px'});
+                        setInterval(function() {
+                            if(y < -300) {
+                                graphic2.style.top = y + "px";
+                                y++;
+                            }
+                        }, 3); // 3ms = 50 frames per second
+                    </script>
+                    <img id="graphic3" src="img/map-pin.svg" alt="상단 APP 디자인">
+                    <script>
+                        let z = -500;
+                        const graphic3 = document.getElementById('graphic3');
+                        console.log(graphic3);
+                        console.log("hello");
+                        // document.addEventListener('keydown', event => {graphic.style.top = ++y + 'px'});
+                        setInterval(function() {
+                            if(z < -330) {
+                                graphic3.style.top = z + "px";
+                                z++;
+                            }
+                        }, 3); // 3ms = 50 frames per second
+                    </script>
+                    <br>
+                    <div class="travelyMapStartBtnM">
+                        <p><a href="https://play.google.com/store/apps/details?id=com.travelymapapp&hl=ko" style="text-decoration:none; color:#ff5050;">Install App</a></p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section id="appAD">
+        <div class="appADTxt">
+            <p>FROM THE BEGINING<br>TO THE END OF THE JOURNEY<br>WITH TRAVELYMAP</p>
+        </div>
+		<div class="appADImg">
+        </div>
+    </section>
+    <section id="part1">
+        <div class="contentBox">
+            <div class="contentWrap">
+				<div class="contentImg">
+					<img src="img/placeGuide.png" width="535px">
+				</div>
+				<div class="contentTxt">
+					<h2>DIFFICULT TO PLAN YOUR TRIP?<br>LOCAL GUIDE PAGE</h2>
+					<p>Don't worry about where to go<br>Get all kinds of travel information<br>It's in Travelymap</p>
+				</div>
+			</div>
+        </div>
+    </section>
+    <section id="part2">
+        <div class="contentBox" style="background-color: white;">
+            <div class="contentWrap">
+                <div class="contentTxt">
+					<h2>TOURIST SPOTS AROUND YOU!<br>LOCATION BASED SERVICE</h2>
+					<p>With GPS interlocking,<br>you can easily set up a travel schedule<br>close to your current location</p>
+				</div>
+				<div class="contentImg">
+					<img src="img/gpsService.png" width="345px">
+				</div>
+			</div>
+        </div>
+    </section>
+    <section id="part3">
+        <div class="contentBox">
+            <div class="contentWrap">
+				<div class="contentImg">
+					<img src="img/share.png" width="215px">
+				</div>
+				<div class="contentTxt">
+					<h2>SHARE YOUR TRIP WITH FRIENDS!<br>SCHEDULE SHARING SERVICE</h2>
+					<p>Create a course with friends at the same time<br>Travelymap provides real-time sharing to modify it</p>
+				</div>
+			</div>
+        </div>
+    </section>
+    <section id="part123M">
+        <div id="part1M">
+            <div id="contentTitle">
+                <h2>DIFFICULT TO PLAN YOUR TRIP?<br>LOCAL GUIDE PAGE</h2>
+            </div>
+            <div class="contentImg">
+                <img src="img/placeGuide.png" width="350px">
+            </div>
+            <div class="contentTxt">
+                <p>Don't worry about where to go<br>Get all kinds of travel information<br>It's in Travelymap</p>
+            </div>
+        </div>
+        <div id="part2M" style="background-color: white;">
+            <div id="contentTitle">
+                <h2>TOURIST SPOTS AROUND YOU!<br>LOCATION BASED SERVICE</h2>
+            </div>
+            <div class="contentImg">
+                <img src="img/gpsService.png" width="300px" style="margin-left: -70px;">
+            </div>
+            <div class="contentTxt">
+                <p>With GPS interlocking,<br>you can easily set up a travel schedule<br>close to your current location</p>
+            </div>
+        </div>
+        <div id="part3M">
+            <div id="contentTitle">
+                <h2>SHARE YOUR TRIP WITH FRIENDS!<br>SCHEDULE SHARING SERVICE</h2>
+            </div>
+            <div class="contentImg">
+                <img src="img/share.png" width="200px">
+            </div>
+            <div class="contentTxt">
+                <p>Create a course with friends at the same time<br>Travelymap provides real-time sharing to modify it</p>
+            </div>
+        </div>
+    </section>
+    <section id="appDownload">
+		<div class="downloadWrap">
+            <div class="tranparentLogoM">
+                <img src="img/travelyMap_tranparent.png" width="150px" style="margin-top: 20px;">
+            </div>
+			<div class="PCdownloadImg">
+				<img src="img/bottomAPP.png">
+			</div>
+			<div class="PCappStoreWrap">
+				<div class="tranparentLogo">
+					<img src="img/travelyMap_tranparent.png" width="150px" style="margin-top: 110px;">
+				</div>
+				<div class="appStore">
+					<a href="https://play.google.com/store/apps/details?id=com.travelymapapp&hl=ko"><img src="img/google_play.png" width="150px"></a>&nbsp;
+					<a href="https://apps.apple.com/kr/app/%ED%8A%B8%EB%9E%98%EB%B8%94%EB%A6%AC%EB%A7%B5/id1523983672"><img src="img/app_store.png" width="150px"></a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+    
+</body>
+</html>

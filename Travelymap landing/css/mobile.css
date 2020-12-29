@@ -1,0 +1,174 @@
+#header {
+    /* background-color: aquamarine; */
+    margin: 5px;
+}
+.headerWrap {
+    display: flex;
+    flex-direction: row;
+}
+.logo {
+    flex-grow: 1;
+    /* background-color: azure; */
+    margin-left: 15px;
+    margin-top: 7px;
+}
+.blank {
+    flex-grow: 1;
+    /* background-color: bisque; */
+}
+.contact {
+    flex-grow: 1;
+    /* background-color: black; */
+    padding: 20px;
+    padding-right: 15px;
+    text-align: right;
+}
+.contact p {
+    display: inline-block;
+}
+
+
+
+#home {
+    display: none;
+}
+#homeM {
+    width: 100%;
+    height: 670px;
+    background:url(../img/background.jpeg)no-repeat;
+    background-size:cover;
+    padding-top: 30px;
+}
+.homeTitM {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: -1.2px;
+}
+
+.topAppM {
+    text-align: center;
+}
+.topAppM img {
+    margin-left: 50px;
+    margin-top: 35px;
+    /* background-color: hotpink; */
+}
+#graphic1 {
+    width:30px;
+	height:30px;
+    position: relative;
+    left: 55px;
+    top: -500px;
+}
+#graphic2 {
+    width:30px;
+	height:30px;
+    position: relative;
+    left: 15px;
+    top: -500px;
+}
+#graphic3 {
+    width:30px;
+	height:30px;
+    position: relative;
+    left: -30px;
+    top: -500px;
+}
+.travelyMapStartBtnM {
+    display: inline-block;
+    margin-top: -200px;
+    position: relative;
+    top: -20px;
+}
+.travelyMapStartBtnM p {
+    text-align: center;
+    height: 40px;
+    width: 130px;
+    border:2px solid #ff6767;
+    background-color: pink;
+    color:#ff5050;
+    line-height: 42px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+
+
+#appAD {
+    height: 300px;
+    background-color: #ff5050;
+    display: flex;
+    flex-direction: row;
+}
+.appADTxt {
+    flex-grow: 1;
+    /* background-color: turquoise; */
+    text-align: center;
+    line-height: 30px;
+    font-size: 3vw;
+    font-weight: bold;
+    color: white;
+    margin-top: 100px;
+}
+.appADImg {
+    flex-grow: 1.8;
+    height: 100%;
+    background:url(../img/secondApp.png)no-repeat;
+    background-size:cover;
+
+}
+
+
+
+#part1 {
+    display: none;
+}
+#part2 {
+    display: none;
+}
+#part3 {
+    display: none;
+}
+#part123M {
+    /* text-align: center; */
+    background-color: rgb(238, 238, 238);
+}
+#part1M, #part2M, #part3M {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#contentTitle h2 {
+    margin-left: 12px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ff6767;
+}
+.contentImg {
+    text-align: center;
+}
+.contentTxt {
+    text-align: center;
+    color: #444;
+    margin: 10px;
+}
+
+
+
+
+.downloadWrap {
+    background-color: #ff5050;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.tranparentLogo img {
+    display: none;
+}
+.PCdownloadImg img {
+    margin-top: 30px;
+    width: 350px;
+}
